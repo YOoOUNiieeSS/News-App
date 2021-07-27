@@ -1,0 +1,30 @@
+name: news_app
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.1
+  dio: ^4.0.0
+  hexcolor: ^2.0.4
+  shared_preferences:
+  webview_flutter: ^2.0.10
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+
+
+
