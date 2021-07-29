@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/modules/webview_screen/weebview_screen.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
+import 'package:flutter/services.dart';
 
 Widget defaultFormField({
   @required TextInputType? type,
@@ -235,4 +236,5 @@ Widget screenBuilder(dynamic list,{bool isSearch=false})=>BlocConsumer<NewsCubit
 Widget myDivider()=>Container(height: 1,color: Colors.grey,);
 
 void navigateTo(context,widget)=>Navigator.push(context, MaterialPageRoute(builder: (context)=>widget));
+
 
